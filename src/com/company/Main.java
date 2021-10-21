@@ -20,5 +20,10 @@ public class Main {
         lomito2.caracteristicas();
         lomito2.jugar();
 
+        Perro lomito3 = new Perro("Milaneso");
+        lomito3.caracteristicas();
+
+        Perro lomito4 = new Perro("Paris", "Pitbull", 2, "bebé");
+        lomito4.caracteristicas();
     }
 }
